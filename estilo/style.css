@@ -1,0 +1,55 @@
+*{
+    margin:0px;
+    padding:0px;
+  }body{
+    width:90vw;
+    padding:1%;
+    margin:auto; 
+  }
+  spam{
+    width:100%;
+    height:11vh;
+    display:block;
+  }
+  .box2{
+    width:100%;
+    height:11vh;  
+  }
+  
+  .header{
+    width:90vw;
+    height:10vh;
+    background-color:blue;
+    margin-bottom:1.5%;
+    position:fixed;  
+  }
+  nav{
+    padding:1%;
+  }
+  /*nav li{
+    text-align:center;
+    display:inline-block;
+    width:22.5%;
+    height:10%;
+    margin:1%;  
+    background-color:green;
+    border-radius:5px;
+    box-shadow:1px 2px;
+  }*/
+  .teste{
+    width:90vw;
+    height:44vh;
+    margin-bottom:1vh;
+    background-color: green;
+  }
+  @media screen and (min-width:413px){
+    .teste{
+    display:inline-block;
+    background-color: red;
+    width:90vw;
+    height:44vh;  
+    margin-bottom:1vh;
+   
+     }
+  }
+  
